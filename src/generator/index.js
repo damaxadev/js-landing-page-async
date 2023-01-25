@@ -1,0 +1,20 @@
+//La ventaja es que podemos elegir cuando acceder a la data con el .next 
+function* gen() {
+    yield 1;
+    yield 2;
+    yield 3;
+}
+
+const g = gen();
+console.log(g.next().value);
+console.log(g.next().value);
+
+function* iterate(array) {
+    for (let value of array){
+        yield value;
+    }
+}
+
+const it = iterate([1,2,4,5,3,6,7,8,9,0]);
+
+console.log(it.next().done);
