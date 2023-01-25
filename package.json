@@ -1,0 +1,25 @@
+{
+  "name": "js-landing-page-async",
+  "version": "1.0.0",
+  "description": "Test landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damaxadev/js-landing-page-async.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Alejandro Max",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damaxadev/js-landing-page-async/issues"
+  },
+  "homepage": "https://github.com/damaxadev/js-landing-page-async#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
